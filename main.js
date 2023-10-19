@@ -56,14 +56,12 @@
 
              // ЗАДАНИЕ 4  
 // function howNum() {
-//              let num = parseInt(prompt('Input your num'));
-//              let str = 0;
-             
-//              for (let i = num; i > 0; i = Math.floor(i / 10)) {
-//                str++;
-//              }
-             
-//              console.log('В данной строке', str);
+// let num = parseInt(prompt('Input your num'));
+// let str = 0;          
+// for (let i = num; i > 0; i = Math.floor(i / 10)) {
+//  str++;
+// }      
+// console.log('В данной строке', str);
 // }
 // howNum();
 
@@ -78,7 +76,6 @@
 
 // for (let i = 0; i < 10; i++) {
 //   let number = +prompt("input num use space");
-  
 //   if (number > 0) {
 //     positive++;
 //   } else if (number < 0) {
@@ -86,7 +83,6 @@
 //   } else {
 //     zero++;
 //   }
-  
 //   if (number % 2 === 0) {
 //     even++;
 //   } else {
@@ -110,11 +106,11 @@
 //         let num1 = prompt("1 number:");
 //         let num2 = prompt("2 number:");
 //         let operator = prompt("input (+, -, *, /):");
-      
+
 //         num1 = Number(num1);
 //         num2 = Number(num2);
-      
 //         let result;
+
 //         if (operator === "+") {
 //           result = num1 + num2;
 //         } else if (operator === "-") {
@@ -129,7 +125,6 @@
 //         }
 //         console.log("Result", result);
 //         let answer = prompt("Maybe repeat? (yes/no)");
-
 //         if (answer.toLowerCase() !== "Yes") {
 //             break;
 //         }
@@ -137,3 +132,37 @@
 //     }
 
 // calc()
+
+// ЗАДАНИЕ 7
+// function moveNum() {
+// let number = prompt("Input numbers use space");
+// let move = prompt("where to move the number");
+// let moveedNumber = number.slice(move) + number.slice(0, move);
+// console.log(moveedNumber);
+// }
+// moveNum()
+
+
+// ЗАДАНИЕ 8
+
+
+
+
+
+
+
+// ЗАДАНИЕ 9
+
+function multiplication() {
+    for (let i = 2; i <= 9; i++) {
+        console.log(`table multiplication this number${i}:`);
+        for (let j = 1; j <= 10; j++) {
+          console.log(`${i} * ${j} = ${i * j}`);
+        }
+        console.log("---------------");
+      }
+}
+
+
+
+// ЗАДАНИЕ 10

@@ -162,6 +162,7 @@ function multiplication() {
         console.log("---------------");
       }
 }
+multiplication()
 
 
 
